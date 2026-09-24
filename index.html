@@ -1,0 +1,15 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07101f"><title>MUHAMMED DIJITAL — BookForge AI</title><link rel="stylesheet" href="style.css"></head>
+<body><header><a class="brand" href="#">MUHAMMED <span>DIJITAL</span></a><nav><button id="langBtn">EN</button><button id="themeBtn">☾</button></nav></header>
+<main><section class="hero"><div class="badge">BOOKFORGE AI • FREE STUDIO</div><h1>من الفكرة إلى كتاب إلكتروني منظم</h1><p>استوديو مجاني لتخطيط وكتابة وتنظيم الكتب بالعربية والإنجليزية، يعمل داخل متصفحك بدون API مدفوع.</p><button class="cta" onclick="document.querySelector('#studio').scrollIntoView({behavior:'smooth'})">ابدأ مشروعك ↓</button></section>
+<section id="studio" class="studio"><aside class="panel"><h2>إعداد المشروع</h2>
+<label>عنوان/موضوع الكتاب</label><textarea id="topic" placeholder="مثال: تعلم الذكاء الاصطناعي من الصفر"></textarea>
+<div class="two"><div><label>اللغة</label><select id="bookLang"><option value="ar">العربية</option><option value="en">English</option></select></div><div><label>الجمهور</label><select id="aud"><option>مبتدئون</option><option>طلاب</option><option>أصحاب أعمال</option><option>محترفون</option></select></div></div>
+<label>الهدف</label><select id="goal"><option>تعليم مهارة</option><option>حل مشكلة</option><option>دليل عملي</option><option>كتاب معرفي</option></select>
+<label>اسم المؤلف</label><input id="author" placeholder="MUHAMMED DIJITAL">
+<button class="primary" id="create">إنشاء مشروع الكتاب</button><button class="ghost" id="save">حفظ على الجهاز</button><button class="ghost" id="load">استعادة آخر مشروع</button>
+<div class="privacy">🔒 لا نرسل كتابك إلى خادم. البيانات تحفظ محليًا في متصفحك.</div></aside>
+<section class="workspace"><div class="bar"><div><small>BOOK PROJECT</small><h2 id="title">مشروع جديد</h2></div><div id="progress">0/10</div></div>
+<div id="welcome" class="welcome"><div>✦</div><h3>BookForge Studio</h3><p>أدخل موضوع الكتاب ثم أنشئ مشروعك. ستحصل على 10 فصول، صفحة حقوق، مواد إضافية، وأصول تسويقية قابلة للتحرير.</p></div>
+<div id="editor" hidden></div></section></section>
+<section class="cards"><article><b>01</b><h3>10 فصول</h3><p>هيكل عملي قابل للتحرير.</p></article><article><b>02</b><h3>Auto Save</h3><p>يحفظ تقدمك محليًا.</p></article><article><b>03</b><h3>Export</h3><p>نسخ، TXT، وطباعة PDF.</p></article><article><b>04</b><h3>0 MAD</h3><p>لا اشتراك ولا API مدفوع.</p></article></section></main>
+<footer>© 2026 MUHAMMED DIJITAL · BookForge AI · Built for free use</footer><script src="app.js"></script></body></html>
