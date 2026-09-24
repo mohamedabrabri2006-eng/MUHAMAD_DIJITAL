@@ -1,13 +1,13 @@
-MUHAMMED DIJITAL — BookForge AI V2
-===================================
-COST: 0 MAD / $0 for the app itself.
-No paid API, no subscription, no account required.
+MUHAMMED DIJITAL — BookForge AI V3
+FREE / 0 MAD / No paid API required.
 
-RUN:
-Open index.html in any modern browser.
+V3: Arabic/English/German, smart 10-chapter outline, 1200–1800 word meter,
+Prompt Studio, autosave with V2 restore compatibility, KDP/Gumroad/Etsy sales kit,
+checklists, TXT/Markdown/PDF export, responsive mobile UI.
 
-FREE HOSTING:
-This is a static site. You can deploy the contents of this folder on any static hosting service that offers a free tier. A public host will provide the shareable URL; the local files themselves do not create a public URL.
+To update the EXISTING site, replace index.html, style.css, app.js and README.txt
+in the root of the same GitHub repository. Keep Pages on main / (root).
+The public URL stays unchanged.
 
-IMPORTANT:
-The app deliberately does not pretend to contain an AI model. It provides a professional book-building workflow without paid APIs. Actual automatic AI text generation requires either a local model on capable hardware or an external model/provider.
+Prompt Studio intentionally uses no paid API. It creates strong prompts that can
+be used with any AI assistant and pasted back into the chapter.
